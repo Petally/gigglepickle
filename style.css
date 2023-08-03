@@ -1,0 +1,25 @@
+body {
+    overflow: hidden;
+}
+
+#footer {
+    height: 5vh;
+    bottom: 5vh; 
+    text-align: center;   
+}
+
+#logo {
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+}
+
+#logoImage {
+    /* IE, only works on <img> tags */
+    -ms-interpolation-mode: nearest-neighbor;
+    /* Firefox */
+    image-rendering: crisp-edges;
+    /* Chromium + Safari */
+    image-rendering: pixelated;
+}
