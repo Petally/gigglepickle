@@ -1,18 +1,18 @@
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 1em;
     overflow: hidden;
 }
 
-#footer {
-    height: 5vh;
-    bottom: 5vh; 
-    text-align: center;   
+hr {
+    border-top: 1px dotted #000;
 }
 
-#logo {
-    width: 100vw;
-    height: 95vh;
-    display: flex;
-    justify-content: center;
+#pleaseSignIn {
+    position: absolute;
+    top: 0px;
+    right: 1em;
 }
 
 #logoImage {
@@ -22,4 +22,10 @@ body {
     image-rendering: crisp-edges;
     /* Chromium + Safari */
     image-rendering: pixelated;
+
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 20%;
+    max-height: 20%;
 }

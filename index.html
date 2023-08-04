@@ -9,10 +9,31 @@
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
 </head>
 <body>
-    <div id="logo">
-        <img src="resources/gigglepickle.png" id="logoImage" alt="giggle pickle logo">
-    </div>
+    <!-- Logo -->
+    <img src="resources/gigglepickle.png" id="logoImage" alt="giggle pickle logo">
+    <!-- Please sign in -->
+    <p id="pleaseSignIn"><span style="color: red">Please </span> <span style="color: grey">sign in</span></p>
 
-    <p id="footer">GIGGLEPICKLE is currently under maintenance. Members, please return at a later date.</p>
+    <hr>
+    <!-- Main form -->
+    <h1>Sign in</h1>
+    
+    <form>
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" id="username"><br>
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="text" id="password">
+        </p>
+        <input type="submit" value="Log In">
+        <input type="checkbox" value="1" name="rememberme" id="id_rememberme">
+        <label for="id_rememberme">Remember me</label>
+        <input type="checkbox" value="1" name="remembername" id="id_remembername">
+        <label for="id_remembername">Remember Username</label>
+    </form>
+
+    <p id="footer"><span style="color: orange">GIGGLE</span><span style="color: blue">PICKLE</span> is currently under maintenance. Members, please return at a later date.</p>
 </body>
 </html>
