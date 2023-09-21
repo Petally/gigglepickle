@@ -32,6 +32,9 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(https://i.imgur.com/umQCUCc.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #my-name-container {
@@ -91,6 +94,7 @@ h3 {
 .page-content-container {
     display: flex;
     justify-content: center;
+
 }
 
 .page-content {
